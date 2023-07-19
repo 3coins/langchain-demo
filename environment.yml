@@ -1,0 +1,10 @@
+name: langchain-aws-demo
+channels:
+  - https://conda.anaconda.org/conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - langchain==0.0.235
+    - boto3
+    - streamlit
